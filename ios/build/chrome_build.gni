@@ -90,22 +90,22 @@ if (breakpad_enabled) {
   is_official_release = false
 }
 
-chromium_bundle_id = "$ios_app_bundle_id_prefix.chrome.ios.dev"
-chromium_handoff_id = "$ios_app_bundle_id_prefix.chrome.handoff"
-ios_move_tab_activity_type = "$ios_app_bundle_id_prefix.chrome.move-tab"
+chromium_bundle_id = "$ios_app_bundle_id_prefix.descendox.ios.dev"
+chromium_handoff_id = "$ios_app_bundle_id_prefix.descendox.handoff"
+ios_move_tab_activity_type = "$ios_app_bundle_id_prefix.descendox.move-tab"
 
 if (is_chrome_branded) {
-  chromium_short_name = "Chrome"
-  url_channel_scheme = "googlechrome-dev"
-  url_secure_scheme = "googlechromes"
-  url_ssoauth_scheme = "$ios_app_bundle_id_prefix.sso.chrome.stable"
-  url_unsecure_scheme = "googlechrome"
-  url_x_callback_scheme = "googlechrome-x-callback"
+  chromium_short_name = "DescendoX"
+  url_channel_scheme = "descendox-dev"
+  url_secure_scheme = "descendoxs"
+  url_ssoauth_scheme = "$ios_app_bundle_id_prefix.sso.descendox.stable"
+  url_unsecure_scheme = "descendox"
+  url_x_callback_scheme = "descendox-x-callback"
 } else {
-  chromium_short_name = "Chromium"
-  url_channel_scheme = "chromium-dev"
-  url_secure_scheme = "chromiums"
-  url_ssoauth_scheme = "$ios_app_bundle_id_prefix.sso.chromium"
-  url_unsecure_scheme = "chromium"
-  url_x_callback_scheme = "chromium-x-callback"
+  chromium_short_name = "DescendoX"
+  url_channel_scheme = "descendox-dev"
+  url_secure_scheme = "descendoxs"
+  url_ssoauth_scheme = "$ios_app_bundle_id_prefix.sso.descendox"
+  url_unsecure_scheme = "descendox"
+  url_x_callback_scheme = "descendox-x-callback"
 }
